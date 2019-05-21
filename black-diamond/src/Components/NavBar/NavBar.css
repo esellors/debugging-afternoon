@@ -31,6 +31,13 @@
   font-family: 'Source Code Pro', monospace;
 }
 
+.navbar-links li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  transform: rotate(5deg);
+  transition: 1s;
+}
+
 hr {
   position: relative;
   margin: 0 0 -1px 0;

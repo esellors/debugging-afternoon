@@ -10,6 +10,11 @@ img {
   width: auto;
 }
 
+img:hover {
+  transform: rotate(180deg);
+  transition: ease-in-out 1s;
+}
+
 .product-container {
   margin: 5vh 0;
 }
